@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169317475-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169317475-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emulador De Playstation 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+            background-size: 100%;
+            background-repeat: repeat;
+            height: 100vh;
+            position: relative;
+        }
+
+        .bg-main {
+            background-color: #A12617;
+        }
+
+        .bg-filter {
+            backdrop-filter: saturate(180%) blur(20px);
+            /* background-color: rgba(255, 255, 255, 0.62); */
+            background-color: rgba(0, 0, 0, 0.32);
+        }
+
+        li {
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+
+        svg {
+            font-size: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-filter">
+        <div class="pt-4 pb-4 bg-main">
+            <h2 class="text-center text-white">Tutorial de instalação do PCSX2</h2>
+        </div>
+
+        <div class="container mb-8">
+            <div class="mt-4">
+                <div class="card" id="requisitos">
+                    <div class="card-body">
+                        <h4>Requisitos para a instalação:</h4>
+                        <ol>
+                            <li>
+                                Baixar o emulador >>
+                                <a href="https://drive.google.com/file/d/1TbmilWwa4AI05bau5jq8uhx7U_pyI2xe/view?usp=sharing"
+                                    target="blank">PCSX2 versão 1.5.0</a>
+                            </li>
+                            <li>
+                                Baixar a BIOS do PS2 >>
+                                <a href="https://drive.google.com/file/d/1Xf6FORHwr1MPrgkZ8sFWW6nXbhW80OxR/view?usp=sharing"
+                                    target="blank">Download</a>
+                            </li>
+                            <li>
+                                Instalar o uTorrent >>
+                                <a href="https://www.utorrent.com/intl/pt_br/downloads/win" target="blank">
+                                    Página de download
+                                </a>
+                            </li>
+                            <li>
+                                Baixar a ISO do jogo >>
+                                <a href="magnet:?xt=urn:btih:BC65F759E32CDE8B5724C0C0B0CAB31EA77557A4&dn=mc3der.iso&tr=udp%3a%2f%2fopen.demonii.com%3a1337&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&tr=udp%3a%2f%2fexodus.desync.com%3a6969"
+                                    target="blank">Download via uTorrent</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Instalando o PCSX2</h4>
+                        <ol>
+                            <li>
+                                Descompacte o arquivo do PCSX2 em algum lugar do seu HD.
+                                <br>
+                                <img src="images/pasta.png" class="img-fluid" alt="Pasta">
+                            </li>
+                            <li>
+                                Descompacte o arquivo das bios e cole dentro da pasta extraida no passo anterior
+                                <br>
+                                Caso pergunte se deseja substituir a pasta, clique em sim
+                                <br>
+                                <img src="images/bios.png" class="img-fluid" alt="Bios">
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Configurando o PCSX2</h4>
+                        <ol>
+                            <li>
+                                Abra o arquivo pcsx2.exe <br>
+                                <img src="images/pcsx2.png" class="img-fluid" alt="PCSX2">
+                            </li>
+                            <li>
+                                Escolha o idioma (Ele vai sugerir o mesmo idioma do Windows), clique em Próximo
+                                <br>
+                                <img src="images/step1.png" class="img-fluid" alt="Passo 1">
+                            </li>
+                            <li>
+                                Não precisa mudar nenhum dos plug-ins, clique em Próximo
+                                <br>
+                                <img src="images/step2.png" class="img-fluid" alt="Passo 2">
+                            </li>
+                            <li>
+                                Nesse passo é preciso escolher a Bios (Caso não apareça na lista, clique em <i>Atualizar
+                                    lista</i>)
+                                <br>
+                                Eu recomendo selecionar a <strong>Japan v02.20(05/09/2006)</strong>. Clique em Concluir
+                                <br>
+                                <img src="images/step3.png" class="img-fluid" alt="Passo 3">
+                            </li>
+                            <li>
+                                Agora você chegou na página principal do emulador
+                                <br>
+                                <img src="images/step4.png" class="img-fluid" alt="Passo 4">
+                            </li>
+                            <li>
+                                Entre nas configurações de emulação
+                                <br>
+                                <img src="images/conf-emu.png" class="img-fluid" alt="Configurações de emulação">
+                            </li>
+                            <li>
+                                EE/IOP (Deixe da mesmo forma)
+                                <br>
+                                <img src="images/emulacao.png" class="img-fluid">
+                            </li>
+                            <li>
+                                VUs (Deixe da mesmo forma)
+                                <br>
+                                <img src="images/vus.png" class="img-fluid">
+                            </li>
+                            <li>
+                                GS (Deixe da mesmo forma)
+                                <br>
+                                <img src="images/gs.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Janela de GS (Deixe da mesmo forma)
+                                <br>
+                                <img src="images/jgs.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Hacks de velocidade (Deixe da mesmo forma)
+                                <br>
+                                <img src="images/hacks.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Correção (Deixe da mesmo forma)
+                                <br>
+                                <img src="images/correcao.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Agora acesse as configurações de Vídeo
+                                <br>
+                                <img src="images/conf-video.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Na opção <strong>Renderer</strong> marque a opção <strong>Direct3D 11
+                                    (Hardware)</strong>
+                                <br>
+                                Na opção <strong>Adapter</strong> escolha a sua placa de vídeo
+                                <br>
+                                Na opção <strong>Internal Resolution</strong> escolha a escala, essa opção depende das
+                                configurações do seu PC, escolha entre (2x, 3x ou 4x) e observe qual se comporta melhor.
+                                <br>
+                                Após escolher a escala, marque a opção <strong>Large Framebuffer</strong>
+                                <br>
+                                Marque a opção <strong>Enable HW Hacks</strong>
+                                <br>
+                                Clique no botão <strong>Advanced Settings and Hacks</strong> (Continua no próximo passo)
+                                <br>
+                                <img src="images/conf-video-specs.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Selecione a opção <strong>Fast Texture Invalidation</strong>
+                                <br>
+                                Na opção <strong>Half-screen Fix</strong> escolha <strong>Force-Enabled</strong>
+                                <br>
+                                <img src="images/advanced.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Clique em Ok e em seguida, clique em Ok novamente para fechar as configurações de vídeo.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Iniciando o Jogo</h4>
+                        <ol>
+                            <li>
+                                Na tela inicial:
+                                <br>
+                                Clique em CDVD > Seleção de ISO > Procurar
+                                <br>
+                                <img src="images/selec-iso.png" class="img-fluid">
+                                <br>
+                                Encontre a ISO que você baixou no <a href="#requisitos">Passo 4</a> dos pré-requisitos.
+                                <br>
+                                Selecione o arquivo e clique em Abrir
+                                <img src="images/selec-iso2.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Certifique-se que a ISO está realmente marcada
+                                <br>
+                                <img src="images/mark-iso.png" class="img-fluid">
+                            </li>
+                            <li>
+                                Para iniciar o jogo:
+                                <br>
+                                Clique em <strong>Sistema</strong> e <strong>Carregar ISO (rápido)</strong>
+                                <br>
+                                <img src="images/load-iso.png" class="img-fluid">
+                            </li>
+                        </ol>
+
+                        <br>
+                        <hr>
+                        <h1 class="text-center">Agora é só se divertir!!!</h1>
+                        <img src="images/happy.png" class="img-fluid">
+
+                        <br><br>
+                        <div class="d-flex justify-content-center">
+                            <iframe src="https://giphy.com/embed/L0qTl8hl84EDly62J1" width="480" height="360"
+                                frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+
+        <footer class="footer mt-auto py-3 bg-main">
+            <div class="container d-flex justify-content-center">
+                <span class="text-white d-flex align-items-center">
+                    Bruno Costa
+                    @2021
+                </span>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
